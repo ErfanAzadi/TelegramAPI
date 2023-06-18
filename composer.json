@@ -1,0 +1,21 @@
+{
+    "name": "erfanazadi/telegramapi",
+    "description": "Telegram Bot Api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Erfanazadi\\Telegramapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ErfanAzadi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
